@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Slope Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="site">
+            <header>
+                <div class="site-wrap">
+                	<div class="right-content">
+                            <div class="right-box" id="hide-right">
+                                <div class="content-logo-brand">
+                                    <a href="#" id="main-logo"></a>
+                                    <span class="text-brand">cco brand</span>
+                                    <span class="brand-description">your partner in business</span>
+                                </div>
+                            </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="left-content">
+                        <div class="left-box" id="hideLeftBox">
+                            <div class="corporate">
+                                <span class="text-corporate">cor<br>por<br>ate</span>
+                            </div>
+                            <span class="corporate-bottom-text">lorem ipsum dolor</span>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+            </header>
+
+            <div class="body-site">
+                <div class="site-wrap">
+
+                    <div class="left-content">
+                        <div class="yellow-box">
+                            <div class="yellow-content">
+                                <span class="head-text">think<br>talk<br>realize</span>
+                            <p class="black-text">Lorem ipsum dolor sit amet, eu quod amet vivendo sea, ad dolorem omittam electram nam. Wisi mnesarchu lorem ipsum dolor sit amet </p>
+                            <p class="white-text">Lorem ipsum dolor sit amet, eu quod amet vivendo sea, ad dolorem omittam electram nam. Wisi mnesarchu lorem ipsum dolor sit amet</p>
+                            </div>
+                            
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="right-content">
+                        <div class="box-we-are">
+                            <span class="we-are-head">we are</span>
+                            <div class="we-are-text-box">
+                                <span class="title-text">lorem ipsum</span>
+                                <p class="describe-we-are">Lorem ipsum dolor sit amet, eu quod amet vivendo sea, ad dolorem omittam electram nam. Wisi mnesarchum duo ea. Qui te volutpat consulatu, quo ex consul dictas, vis cu tantas temporibus.</p>
+                                <p>Lorem ipsum dolor sit amet, eu quod amet vivendo sea, ad dolorem omittam electram nam. Wisi mnesarchum duo ea. Qui te volutpat consulatu, quo ex consul dictas, vis cu tantas temporibus.</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="box-qr">
+                        <div class="qr-code">
+                            <span class="text-qr">our company on</span>
+                            <img src="img/qr.jpg" class="qr-image">
+                            <a href="#" class="website">www.website.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="site-wrap">
+                    <div class="left-content-footer">
+                        <div class="footer-box">
+                            <p class="footer-text">Lorem ipsum dolor sit amet, eu quod amet viven sea, ad dolorem omittam electram nam. Wisi mnesarchu lorem ipsum dolor sit amet dolor amet</p>
+                        </div>
+                    </div>
+                    <div class="right-content">
+                        <div class="contact-form">
+                            <span class="contact-form-title">for more informations <br> <span class="moving">contact us</span></span>
+                            <div class="clearfix"></div>
+                            <div class="info">
+                                <span class="info-address">MAIN STREET, LONDON, 12/B <span class="bold-info">:address</span></span>
+                                <span class="info-phone">( 012 ) 345 678 901 <span class="bold-info">:phone</span></span>
+                                <span class="info-email">example@email.com<span class="bold-info">:mail</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+
+            
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+        <script>
+            $(function (){
+                $(window).scroll(function (){
+                    var scroll = $(window).scrollTop();
+
+                    if(scroll>=15){
+                        $('#hide-right').hide('slow');
+                        $('#hideLeftBox').hide('slow');
+                    } else{
+                        $('#hide-right').show('slow');
+                        $('#hideLeftBox').show('slow');
+
+                    }
+                });
+            });
+
+                
+               
+        
+        </script>
+    </body>
+</html>
